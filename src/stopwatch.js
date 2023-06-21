@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
-import './App.css'
 
-const App = () => {
+
+const stopwatch = () => {
   const [timer, setTimer] = useState(0,0,0)
   const [isActive, setIsActive] = useState(false)
   const [isPaused, setIsPaused] = useState(false)
@@ -64,4 +64,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default stopwatch;
